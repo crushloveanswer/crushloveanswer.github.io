@@ -5,7 +5,7 @@
   <script type="text/javascript">
 	var lel = ['https://1.bp.blogspot.com/-bzFqJmqgkTM/UChvEkWwKuI/AAAAAAAAA1c/Dwa1kMxo-uI/s1600/yes_logo.png', 'http://unclutteredwhitespaces.com/wp-content/uploads/2015/03/no.jpg'];
 	var rand = lel[Math.floor(Math.random() * lel.length)];
-	$('meta[property="og:image"]').replaceWith('<meta property="og:image" content="'+rand+'"/>');
+	$('meta[property="og:image"]').attr('content', rand);
 </script>
 <meta name="keywords" content="mcdonalds, taco bell, celebrities, health products, life" />
 <meta property="og:site_name" content="crushloveanswer.github.io" />
